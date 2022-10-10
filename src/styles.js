@@ -22,6 +22,7 @@ export const TextContainer = styled.div `
     padding: 50px 36px;
     display: flex;
     flex-direction: column;
+    min-height: 50vh
     
     
 
@@ -90,4 +91,34 @@ export const Button = styled.button `
     &:active{
         opacity: 0.5;
     }
+`
+export const User = styled.li`
+     background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+    width: calc(342px - 50px);
+    height: 58px;
+    border: none;
+    outline: none;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px;
+    margin-top: 25px;
+
+   
+
+    span{
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+        color: #FFFFFF;
+    }
+
+    button{
+        border: none;
+        background: none;
+    }
+
 `
