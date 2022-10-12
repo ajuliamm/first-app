@@ -6,7 +6,7 @@ import Arrow from './assets/arrow.svg'
 import Trash from './assets/trash.svg'
 
 const App = () =>{
-  let hello = 'Olá!'
+  let hello = 'Hello!'
   
   const [users, setUsers] = useState([])
   const InputName= useRef()
